@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>How To Make A Website With Image Transform Effect Using HTML and CSS </title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://kit.fontawesome.com/0ef6695f2c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+
+    <div class="hero">
+
+        <nav>
+            <img src="images/logo.png" alt="logo" class="logo">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Hire me</a></li>
+            </ul>
+
+            <img src="images/moon.png" alt="" class="mode" id="icomImg">
+
+
+        </nav>
+
+        <div class="info">
+
+            <h1>I'm <span>Rakesh</span> Mistry </h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br />
+                Reiciendis mollitia quia harum rem ad quasi
+            </p>
+            <a href="#" >Download CV</a>
+
+        </div>
+
+
+        <div class="img-box">
+
+            <img src="images/pattern.png" alt="" class="back-img">
+            <img src="images/girl.png" alt="" class="main-img">
+
+
+        </div>
+
+
+        <div class="social-link">
+            <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+            <a href=""><i class="fa-brands fa-dribbble"></i></a>
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+    <section>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi voluptates consequuntur possimus, nostrum
+            tempore modi laudantium similique illum? Nesciunt deleniti perspiciatis distinctio laborum labore sint
+            dolores asperiores vel itaque quos voluptas vitae, corrupti officiis mollitia error ea praesentium fuga
+            eaque maxime deserunt aut natus consequatur corporis? Debitis ipsum qui, recusandae voluptas nostrum quo ea
+            similique ipsam in vitae voluptatum dicta explicabo quaerat atque delectus animi voluptatem reprehenderit
+            magni maxime eaque corrupti earum hic dolore voluptates? Cum doloremque quis doloribus cumque velit
+            praesentium assumenda, nobis nisi magnam recusandae odit natus ab fugiat quod maiores provident at totam
+            ipsam similique optio consectetur.</p>
+    </section>
+
+
+
+    <script>
+
+        let modeIcon = document.getElementById("icomImg");
+
+        modeIcon.onclick = function () {
+            document.body.classList.toggle("dark-theme");
+            if (document.body.classList.contains("dark-theme")) {
+                modeIcon.src = "images/sun.png "
+            } else {
+
+                modeIcon.src = "images/moon.png "
+
+
+            }
+
+
+
+        }
+
+
+
+    </script>
+
+
+
+
+
+
+
+
+</body>
+
+</html>
